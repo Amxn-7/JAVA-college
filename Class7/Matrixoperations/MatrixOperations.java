@@ -27,7 +27,7 @@ public class MatrixOperations {
         // transpose of matrix 
         int[][] result = new int[col][row];
         for (int i = 0; i < row; i++) {
-            for (int j = 0; j < col; j++) {
+           for (int j = 0; j < col; j++) {
                 result[j][i] = A[i][j];
             }
         }
