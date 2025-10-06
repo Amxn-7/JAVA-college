@@ -7,7 +7,7 @@ class Account{
     }
 
     public void setId(int id) {
-        this.id = id; 
+        this.id = id;  
     }
 
     public double getBalance() {
@@ -24,8 +24,6 @@ class Account{
     public void deposit(double amt){
         balance+=amt;
     }
-
-
 }
 public class Acc {
     public static void main(String[] args) {
