@@ -6,7 +6,7 @@ class Student{
     private String dept;
 
     public Student(){
-        this(id);
+        // this(id);
     }
     public Student(int id,String name,String dept){
         this.id=id;
@@ -18,10 +18,7 @@ class Student{
         this.name=name;
     }
     public Student(int id){
-        this.id=id;
+        this.id=id; 
     }
-    
-}
-public class Students {
     
 }
