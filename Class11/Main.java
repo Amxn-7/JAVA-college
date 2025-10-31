@@ -1,7 +1,16 @@
 package Class11;
 
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int val) {
+        this.val = val;
+    }
+}
+
 public class Main {
-    if(head==null || head.next==null) return head;
+    public ListNode findMiddle(ListNode head) {
+        if(head==null || head.next==null) return head;
         ListNode slow = head;
         ListNode fast = head;
         while(fast!=null && fast.next!=null){
@@ -9,4 +18,5 @@ public class Main {
             fast=fast.next.next;
         }
         return slow;
+    }
 }
