@@ -25,7 +25,7 @@ public class MyCircularLinkedList {
             Node node = new Node(data);
             Node temp = head;
             while(temp!=tail){
-                temp=temp.next;
+                temp=temp.next;  
             }
             temp.next=node;
             tail=node;
